@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(/assets/font/Poppins-SemiBold.ttf) format("truetype");
+}
+
+body {
+  font-family: "Poppins";
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(/assets/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 91vh;
+}
+
+.header .logo {
+  width: 147px;
+  height: 115px;
+}
+
+.header .content-header {
+  color: white;
+  font-size: 30px;
+  max-width: 700px;
+  text-align: center;
+  line-height: 74px;
+  margin-top: 30px;
+}
+
+.header .content-header button {
+  background: #fff;
+  width: 245px;
+  height: 51px;
+  font-family: "Poppins";
+  font-size: 18px;
+  color: #383838;
+}
