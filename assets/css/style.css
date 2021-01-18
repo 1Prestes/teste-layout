@@ -5,6 +5,7 @@
 
 body {
   font-family: "Poppins";
+  font-size: 16px;
 }
 
 .header {
@@ -15,7 +16,7 @@ body {
   background: url(/assets/images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 91vh;
+  height: 87vh;
 }
 
 .header .logo {
@@ -25,10 +26,10 @@ body {
 
 .header .content-header {
   color: white;
-  font-size: 30px;
+  font-size: 5vw;
   max-width: 700px;
   text-align: center;
-  line-height: 74px;
+  /* line-height: 74px; */
   margin-top: 30px;
 }
 
@@ -40,3 +41,23 @@ body {
   font-size: 18px;
   color: #383838;
 }
+
+.container {
+  max-width: 1440px;
+  margin: 0 100px;
+  background: red;
+}
+
+.categories {
+  font-family: 'Poppins';
+  color: #383838;
+}
+
+.categories h2 {
+  font-size: 2em;
+}
+
+.categories p {
+  font-size: 1em;
+}
+
