@@ -26,7 +26,7 @@ body {
 
 .header .content-header {
   color: white;
-  font-size: 5vw;
+  font-size: min(1.9em, 5vw);
   max-width: 700px;
   text-align: center;
   /* line-height: 74px; */
@@ -35,29 +35,95 @@ body {
 
 .header .content-header button {
   background: #fff;
+  margin-top: 40px;
   width: 245px;
   height: 51px;
   font-family: "Poppins";
-  font-size: 18px;
+  font-size: 1.1rem;
   color: #383838;
 }
 
 .container {
   max-width: 1440px;
   margin: 0 100px;
-  background: red;
+  margin-bottom: 100px;
+}
+
+.info {
+  margin-top: 30px;
+  color: #383838;
+}
+
+.info h2 {
+  font-size: 3em;
+}
+
+.info p {
+  font-size: 1.1em;
 }
 
 .categories {
-  font-family: 'Poppins';
-  color: #383838;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .categories h2 {
   font-size: 2em;
 }
 
-.categories p {
-  font-size: 1em;
+.categorie {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  height: 350px;
+  margin-top: 30px;
+  color: white;
+
 }
 
+.categorie h3 {
+  font-size: 3em;
+}
+
+.categories p {
+  font-size: 1.2em;
+}
+
+.categories .nature {
+  flex: 1;
+  background: url(/assets/images/nature.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 30px;
+}
+
+.categories .daily {
+  flex: 2;
+  background: url(/assets/images/daily.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.categories .together {
+  flex: 1;
+  background: url(/assets/images/together.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+
+.categories .analysis {
+  flex: 2;
+  background: url(/assets/images/analysis.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 30px;
+  text-align: end;
+}
+
+.categories .pictures {
+  flex: 1;
+  background: url(/assets/images/pictures.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
