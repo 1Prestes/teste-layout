@@ -3,6 +3,11 @@
   src: url(/assets/font/Poppins-SemiBold.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(/assets/font/Poppins-Regular.ttf) format("truetype");
+}
+
 body {
   font-family: "Poppins";
   font-size: 16px;
@@ -29,7 +34,6 @@ body {
   font-size: min(1.9em, 5vw);
   max-width: 700px;
   text-align: center;
-  /* line-height: 74px; */
   margin-top: 30px;
 }
 
@@ -45,8 +49,7 @@ body {
 
 .container {
   max-width: 1440px;
-  margin: 0 100px;
-  margin-bottom: 100px;
+  margin: auto 100px;
 }
 
 .info {
@@ -78,7 +81,6 @@ body {
   height: 350px;
   margin-top: 30px;
   color: white;
-
 }
 
 .categorie h3 {
@@ -126,4 +128,69 @@ body {
   background: url(/assets/images/pictures.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.plans-section {
+  background: #f4f4f4;
+  margin: 100px 0;
+  padding-top: 50px;
+}
+
+.plans {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-top: -100px;
+}
+
+.plans .card {
+  flex: 1;
+  background: #0088ed;
+  min-width: 160px;
+  margin-top: 25px;
+  color: #fff;
+}
+
+.plans .card .card-header {
+  background: #005499;
+  padding: 20px;
+  line-height: 30px;
+}
+
+.plans .card .card-header h3 {
+  font-size: 2em;
+}
+
+.plans .card .card-header h4 {
+  font-size: 1.2em;
+}
+
+.plans .card .card-body {
+  padding: 20px;
+  font-family: "Poppins-Regular";
+  font-size: 0.7em;
+}
+
+.mr-25 {
+  margin-right: 25px;
+}
+
+.h-225 {
+  height: 225px;
+}
+
+.h-275 {
+  height: 275px;
+}
+
+.h-325 {
+  height: 325px;
+}
+
+.h-375 {
+  height: 375px;
+}
+
+.h-425 {
+  height: 425px;
 }
